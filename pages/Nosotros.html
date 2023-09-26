@@ -10,21 +10,54 @@
 <body>
     <header>
         <h1><span>A</span>le <span>B</span>uendia</h1>
-        <!--ACA VA EL LOGO-->
-        <nav>
-            <!--LISTA DESORDENADA-->
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./Productos.html">Productos</a></li>
-                <li><a href="./Mi Cuenta.html">Mi Cuenta</a></li>
-                <li><a href="./Nosotros.html">Nosotros</a></li>
-                <li><a href="./Preguntas Frecuentes.html">Preguntas Frecuentes</a></li>
-            </ul>
-            
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Mi Cuenta.html">Mi Cuenta</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./Productos.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./Productos.html">Ojos</a></li>
+                                <li><a class="dropdown-item" href="./Productos.html">Labios</a></li>
+                                <li><a class="dropdown-item" href="./Productos.html">Rostro</a></li>
+                                <li><a class="dropdown-item" href="./Productos.html">Cejas</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                                <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Preguntas Frecuentes.html">Preguntas Frecuentes</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <section>
+            <p> Somos tienda online, pero encuentra nuestro showroom aquí: </p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d193610.5907758636!2d-73.99082700000001!3d40.692353!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a49363b5363%3A0xe9e4b373ec087148!2sSEPHORA!5e0!3m2!1ses-419!2sar!4v1692826706235!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>

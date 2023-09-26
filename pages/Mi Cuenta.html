@@ -11,16 +11,49 @@
     <header>
         <h1><span>A</span>le <span>B</span>uendia</h1>
         <!--ACA VA EL LOGO-->
-        <nav>
-            <!--LISTA DESORDENADA-->
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./Productos.html">Productos</a></li>
-                <li><a href="./Mi Cuenta.html">Mi Cuenta</a></li>
-                <li><a href="./Nosotros.html">Nosotros</a></li>
-                <li><a href="./Preguntas Frecuentes.html">Preguntas Frecuentes</a></li>
-            </ul>
-            
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Mi Cuenta.html">Mi Cuenta</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./Productos.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./Productos.html">Ojos</a></li>
+                                <li><a class="dropdown-item" href="./Productos.html">Labios</a></li>
+                                <li><a class="dropdown-item" href="./Productos.html">Rostro</a></li>
+                                <li><a class="dropdown-item" href="./Productos.html">Cejas</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                                <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Preguntas Frecuentes.html">Preguntas Frecuentes</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
     <main>

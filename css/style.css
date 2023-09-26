@@ -66,9 +66,9 @@ header nav ul li a {
    color: black; 
 }
 
-header nav ul li a:hover {
-    color: rgb(227, 192, 192);
-}
+.navbar-nav .nav-item a:hover {
+    color: rgb(227, 192, 192);    
+    }
 
 header nav img {
     width: 40px;
@@ -94,7 +94,7 @@ header nav img {
 
 .hero p {
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 80px;
 }
 
 .hero a {
@@ -232,6 +232,11 @@ header nav img {
     font-size: 30px;
     padding-bottom: 5px;
     padding-top: 10px;
+}
+
+.youtube-video {
+    width: 350px;
+    height: 300px;
 }
 
 /*--------FOOTER----------*/
