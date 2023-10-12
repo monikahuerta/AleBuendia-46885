@@ -1,0 +1,65 @@
+header {
+    background-color: palevioletred;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    h1 {
+        font-size: 50px;
+        font-weight: 80;
+        font-family: 'Allura', cursive;
+        color:black
+        span {
+            color: rgb(227, 192, 192);
+        }
+    }
+
+    nav.navbar.navbar-expand-lg {
+        .container-fluid {
+            .navbar-brand {
+                img {
+                    width: 40px;
+                }
+            }
+            .navbar-toggler {
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            .collapse.navbar-collapse#navbarSupportedContent {
+                ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+                    li.nav-item {
+                        display: inline-block;
+                        margin-left: 40px;
+                        margin-right: 20px;
+                        font-weight: 30px;
+                        font-size: 15px;
+
+                        a.nav-link {
+                            text-decoration: none;
+                            color: black;
+                            &:hover {
+                                color: rgb(227, 192, 192);
+                            }
+                        }
+                    }
+                }
+
+                form.d-flex[role='search'] {
+                    input.form-control.me-2[type='search'][placeholder='Buscar'][aria-label='Search'] {
+                    }
+                    button[type='submit'] {
+                        border: 2px solid palevioletred;
+                        background-color: palevioletred;
+                        &:hover {
+                            background-color: palevioletred;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

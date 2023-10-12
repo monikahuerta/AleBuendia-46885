@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Poppins', sans-serif; }
+
+header {
+  background-color: palevioletred;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1; }
+  header h1 {
+    font-size: 50px;
+    font-weight: 80;
+    font-family: 'Allura', cursive; }
+    header h1 color:black
+span {
+      color: #e3c0c0; }
+  header nav.navbar.navbar-expand-lg .container-fluid .navbar-brand img {
+    width: 40px; }
+  header nav.navbar.navbar-expand-lg .container-fluid .navbar-toggler:hover {
+    cursor: pointer; }
+  header nav.navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-weight: 30px;
+    font-size: 15px; }
+    header nav.navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item a.nav-link {
+      text-decoration: none;
+      color: black; }
+      header nav.navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item a.nav-link:hover {
+        color: #e3c0c0; }
+  header nav.navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse#navbarSupportedContent form.d-flex[role='search'] button[type='submit'] {
+    border: 2px solid palevioletred;
+    background-color: palevioletred; }
+    header nav.navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse#navbarSupportedContent form.d-flex[role='search'] button[type='submit']:hover {
+      background-color: palevioletred;
+      color: white; }
+
+.hero {
+  width: 100%;
+  height: 90vh;
+  color: black;
+  text-align: center;
+  background-image: linear-gradient(rgba(216, 112, 147, 0.429), rgba(216, 112, 147, 0.205)), url("../img/maquillaje.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .hero h2 {
+    font-size: 30px; }
+  .hero p {
+    font-size: 30px;
+    margin-bottom: 80px; }
+  .hero a {
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid palevioletred; }
+    .hero a:hover {
+      background-color: #e3c0c0; }
+
+.productos h2 {
+  text-align: center;
+  color: black;
+  background-color: palevioletred;
+  font-size: 30px;
+  padding: 5px; }
+
+.bienvenidos {
+  text-align: center; }
+  .bienvenidos h2 span {
+    color: #e3c0c0; }
+  .bienvenidos p {
+    font-size: 20px; }
+
+.productos div {
+  width: 250px;
+  height: 350px;
+  border: 2px solid black;
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+  transition: 1s;
+  box-shadow: 10px 10px 43px -13px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 43px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 43px -13px rgba(0, 0, 0, 0.75); }
+  .productos div:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 43px -13px rgba(0, 0, 0, 0.829);
+    -webkit-box-shadow: 10px 10px 43px -13px rgba(0, 0, 0, 0.457);
+    -moz-box-shadow: 10px 10px 43px -13px rgba(0, 0, 0, 0.384); }
+  .productos div img {
+    width: 247px;
+    height: 247px; }
+  .productos div h3 {
+    margin: 10px; }
+  .productos div a {
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    padding: 2px;
+    font-size: 20px; }
+    .productos div a:hover {
+      background-color: #e3c0c0; }
+
+.grid-galeria {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  gap: 15px; }
+
+.grid-galeria div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 10px 10px 43px -13px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 43px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 43px -13px rgba(0, 0, 0, 0.75); }
+
+.img-3 {
+  grid-row: span 2; }
+
+.img-6 {
+  grid-row: span 2; }
+
+.img-9 {
+  grid-column: span 2; }
+
+.grid-item {
+  position: relative; }
+  .grid-item h3 {
+    position: absolute;
+    top: 0;
+    color: black;
+    background-color: rgba(216, 112, 147, 0.715);
+    width: 100%;
+    padding: 5px; }
+
+.fixed {
+  position: fixed;
+  right: 50px;
+  bottom: 50px; }
+  .fixed img {
+    width: 40px;
+    height: 40px; }
+
+.conoce h2 {
+  text-align: center;
+  color: black;
+  background-color: palevioletred;
+  font-size: 30px;
+  padding-bottom: 5px;
+  padding-top: 10px; }
+
+.youtube-video {
+  width: 350px;
+  height: 300px; }
+
+#pie {
+  background-color: palevioletred;
+  font-size: 30px; }
+  #pie h2 span {
+    color: #e3c0c0; }
+  #pie div a img {
+    width: 50px;
+    height: 50px; }
+
+/*Preguntas Frecuentes*/
+.pregunta h3 {
+  text-align: center;
+  color: black;
+  background-color: palevioletred;
+  font-size: 30px;
+  padding-bottom: 5px;
+  padding-top: 10px; }
+
+.pregunta p {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  padding-bottom: 2px;
+  padding-top: 2px; }
+
+/*Nosotros*/
+.nosotros p {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  padding-bottom: 2px;
+  padding-top: 2px; }
+
+.nosotros h3 {
+  text-align: center;
+  color: black;
+  background-color: palevioletred;
+  font-size: 30px;
+  padding-bottom: 5px;
+  padding-top: 10px; }
+
+.nosotros iframe {
+  margin: 0 auto;
+  display: block; }
