@@ -151,17 +151,21 @@
 }
   
 .conoce {
-    h2 {
-      text-align: center;
-      color: black;
-      background-color: palevioletred;
-      font-size: 30px;
-      padding-bottom: 5px;
-      padding-top: 10px;
-    }
+  h2 {
+    text-align: center;
+    color: black;
+    background-color: palevioletred;
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+
+  p {
+    margin-left: 500px;
+  }
 }
-  
+
 .youtube-video {
     width: 350px;
-    height: 300px;
+    height: 400px;
+    margin: 500px;
 }
